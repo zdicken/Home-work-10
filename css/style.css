@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/delagothicone/v1/hESp6XxvMDRA-2eD0lXpDa6QkBAGRQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Orelega One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/orelegaone/v1/3qTpojOggD2XtAdFb-QXZGt6.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ubuntumono/v10/KFOjCneDtsqEr0keqCMhbBc9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Zen Dots';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/zendots/v1/XRXX3ICfm00IGoesQeaE.ttf) format('truetype');
+}
+.gothic {
+  font-family: "Dela Gothic One";
+}
+.orelega {
+  font-family: "Orelega One";
+}
+.ubuntu {
+  font-family: "Ubuntu Mono";
+}
+.navWrapper {
+  position: fixed;
+  text-align: right;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+}
+.navWrapper a {
+  padding-right: 20px;
+}
+.dropDownMenu {
+  display: none;
+}
+.toggle {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .navWrapper {
+    position: fixed;
+    top: 30px;
+    right: 0;
+    height: 60px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+  }
+  .dropDownMenu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: cadetblue;
+  }
+  .toggle {
+    display: none;
+  }
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 200px;
+}
+@media screen and (max-width: 600px) {
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */
